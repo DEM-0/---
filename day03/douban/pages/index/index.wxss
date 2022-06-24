@@ -1,0 +1,93 @@
+/**index.wxss**/
+
+:root{
+  --title-size:40rpx;
+  --green:#07c160;
+}
+
+
+/* 搜索框开始 */
+.header{
+  /* height: 50px; */
+  padding: 0rpx 15rpx 15rpx 15rpx;  
+  background-color: #07c160;
+  color: white;
+}
+
+.search-box{
+  background-color: rgb(255, 255, 255);
+  height: 55rpx;
+  line-height: 35rpx;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 25rpx;
+  color: rgb(124, 124, 124);
+}
+
+/* 搜索框结束 */
+
+/* card开始 */
+.body{
+  /* background-color: rgb(188, 255, 32); */
+  padding: 10px;
+}
+.body-card{
+  /* background-color: rgb(255, 0, 0); */
+  padding-bottom: 16rpx;
+  border-bottom: 1px solid #bdbdbd;
+  margin-bottom: 20rpx;
+}
+.body-card-header{
+  margin-top: -20rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  height: 100rpx;
+  line-height: 50rpx;
+  font-size: 30rpx;
+  justify-content: space-between;
+}
+.body-card-header-right icon{
+  line-height: 30rpx;
+  font-size: 30rpx;
+  color: #07c160;
+}
+
+.body-card-body-scroll{
+  white-space: nowrap;
+  width: 100%;
+}
+
+.body-card-header-left{
+  font-weight: 500;
+  font-family: "sans-serif";
+}
+
+.card-content{
+  display: inline-block;
+  width: 160rpx;
+  margin-right: 35rpx;
+  overflow: hidden;
+}
+.card-content-img{
+  height: 230rpx;
+  width: 100%;
+  border-radius: 15rpx;
+}
+.card-content-title{
+    display: block;
+    font-size:25rpx;
+    font-family: "微软雅黑";
+}
+.card-content-assess{
+  display: flex;
+  justify-content:space-between;
+}
+.card-content-assess-star,.card-content-assess-number{
+  display: inline-block;
+  /* background-color: rgb(192, 87, 87); */
+}
+
+/* card结束 */

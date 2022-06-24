@@ -1,0 +1,44 @@
+<!--pages/day03/day03.wxml-->
+<text>pages/day03/day03.wxml</text>
+<scroll-view scroll-x="{{true}}">
+    <view>1</view>
+    <view>2</view>
+    <view>3</view>
+    <view>1</view>
+    <view>2</view>
+    <view>3</view>
+    <view>1</view>
+    <view>2</view>
+    <view>3</view>
+    <view>1</view>
+    <view>2</view>
+    <view>3</view>
+</scroll-view>
+
+
+<!-- 跳转标签 注意不允许跳转tabbar页面 会自动生成返回箭头 -->
+<navigator url="/pages/index/index" class="">跳转</navigator>
+
+<!-- 字体图标的使用 
+1.阿里图库里添加
+2.添加到购物车
+3.将购物车中的内容添加到项目中
+4.进行项目设置 编码格式为 ttf和base64 并下载
+5.解压并复制iconfont.css到项目文件中
+6.重命名iconfont.css为 iconfont.wxss
+7.在app.wxss中引入字体文件  @import '本地文件地址'
+8.在需要的文件中添加相应的类名
+-->
+
+
+<!-- 请求网络数据
+wx.request({
+    url:...,
+    success:function(res){
+        ....
+    }
+})
+ -->
+
+ <!-- rpx 微信小程序自定义的 -->
+

@@ -1,0 +1,119 @@
+<!--index.wxml-->
+<scroll-view class="box">
+  <view class="header">
+    <navigator url="/pages/search/search" class="search-nav search-box">
+      <icon class="search-icon iconfont icon-sousuo">搜索</icon>
+    </navigator>
+  </view>
+  <view class="body">
+    <view class="body-card">
+      <view class="body-card-header">
+        <text class="body-card-header-left">{{tempResData.genre}}</text>
+        <view class="body-card-header-right">
+          <icon class="iconfont icon-fanhui2">查看更多</icon>
+        </view>
+      </view>
+      <view class="body-card-body">
+        <scroll-view class="body-card-body-scroll" scroll-x="{{true}}">
+          <view class="card-content">
+            <image class="card-content-img" src="{{tempResData.image}}"></image>
+            <text class="card-content-title">{{tempResData.originalname}}</text>
+            <view class="card-content-assess">
+              <view class="card-content-assess-star">
+              <icon class="iconfont icon-xingxing2"></icon>
+              </view>
+              <view class="card-content-assess-number">{{tempResData.rate}}</view>
+            </view>
+          </view>
+          <view class="card-content">
+            <image class="card-content-img" src="{{tempResData.image}}"></image>
+            <text class="card-content-title">{{tempResData.originalname}}</text>
+            <view class="card-content-assess">
+              <view class="card-content-assess-star">*****</view>
+              <view class="card-content-assess-number">{{tempResData.rate}}</view>
+            </view>
+          </view>
+          <view class="card-content">
+            <image class="card-content-img" src="{{tempResData.image}}"></image>
+            <text class="card-content-title">{{tempResData.originalname}}</text>
+            <view class="card-content-assess">
+              <view class="card-content-assess-star">*****</view>
+              <view class="card-content-assess-number">{{tempResData.rate}}</view>
+            </view>
+          </view>
+          <view class="card-content">
+            <image class="card-content-img" src="{{tempResData.image}}"></image>
+            <text class="card-content-title">{{tempResData.originalname}}</text>
+            <view class="card-content-assess">
+              <view class="card-content-assess-star">*****</view>
+              <view class="card-content-assess-number">{{tempResData.rate}}</view>
+            </view>
+          </view>
+          <view class="card-content">
+            <image class="card-content-img" src="{{tempResData.image}}"></image>
+            <text class="card-content-title">{{tempResData.originalname}}</text>
+            <view class="card-content-assess">
+              <view class="card-content-assess-star">*****</view>
+              <view class="card-content-assess-number">{{tempResData.rate}}</view>
+            </view>
+          </view>
+          <view class="card-content">
+            <image class="card-content-img" src="{{tempResData.image}}"></image>
+            <text class="card-content-title">{{tempResData.originalname}}</text>
+            <view class="card-content-assess">
+              <view class="card-content-assess-star">*****</view>
+              <view class="card-content-assess-number">{{tempResData.rate}}</view>
+            </view>
+          </view>
+          <view class="card-content">
+            <image class="card-content-img" src="{{tempResData.image}}"></image>
+            <text class="card-content-title">{{tempResData.originalname}}</text>
+            <view class="card-content-assess">
+              <view class="card-content-assess-star">*****</view>
+              <view class="card-content-assess-number">{{tempResData.rate}}</view>
+            </view>
+          </view>
+        </scroll-view>
+      </view>
+    </view>
+    <view class="body-card">
+      <view class="body-card-header">
+        <text class="body-card-header-left">{{tempResData.genre}}</text>
+        <view class="body-card-header-right">
+          <icon class="iconfont icon-fanhui2">查看更多</icon>
+        </view>
+      </view>
+      <view class="body-card-body">
+        <scroll-view class="body-card-body-scroll" scroll-x="{{true}}">
+          <view class="card-content">
+            <image class="card-content-img" src="{{tempResData.image}}"></image>
+            <text class="card-content-title">{{tempResData.originalname}}</text>
+            <view class="card-content-assess">
+              <view class="card-content-assess-star">*****</view>
+              <view class="card-content-assess-number">{{tempResData.rate}}</view>
+            </view>
+          </view>
+          <view class="card-content">
+            <image class="card-content-img" src="{{tempResData.image}}"></image>
+            <text class="card-content-title">{{tempResData.originalname}}</text>
+            <view class="card-content-assess">
+              <view class="card-content-assess-star">*****</view>
+              <view class="card-content-assess-number">{{tempResData.rate}}</view>
+            </view>
+          </view>
+          <view class="card-content">
+            <image class="card-content-img" src="{{tempResData.image}}"></image>
+            <text class="card-content-title">{{tempResData.originalname}}</text>
+            <view class="card-content-assess">
+              <view class="card-content-assess-star">*****</view>
+              <view class="card-content-assess-number">{{tempResData.rate}}</view>
+            </view>
+          </view>
+        </scroll-view>
+      </view>
+    </view>
+  </view>
+  <view class="footer">
+
+  </view>
+</scroll-view>

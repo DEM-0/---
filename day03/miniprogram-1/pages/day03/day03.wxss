@@ -1,0 +1,13 @@
+/* pages/day03/day03.wxss */
+scroll-view{
+    width: 100%;
+    white-space: nowrap;
+    background-color: rgb(233, 173, 173);
+}
+view{
+    width: 70px;
+    height: 100px;
+    background-color: rgb(255, 68, 68);
+    display: inline-block;
+    margin-right: 10px;
+}
